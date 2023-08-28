@@ -1,0 +1,51 @@
+.welcome-header {
+    margin: 90px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.welcome_h1 {
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+
+.welcome_p {
+    width: 60%;
+    opacity: 0.7;
+}
+.formm {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+
+.formm input {
+    padding:15px 0px;
+    border: none;
+    font-size: 18px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease-in-out;
+}
+.formm input::placeholder{
+    color:rgba(0, 0, 0, 0.4);
+}
+.formm input:focus {
+    border-color: var(--kakao);
+}
+
+.formm input[type="submit"] {
+    background-color: var(--kakao);
+    cursor: pointer;
+    padding: 20px 0px;
+    border: none;
+}
+.formm a {
+    text-align: center;
+    text-decoration: none;
+    color:inherit;
+    font-size: 13px;
+}

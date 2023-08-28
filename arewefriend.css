@@ -1,0 +1,88 @@
+.headerr {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+
+
+.header-title {
+    font-size: 30px;
+}
+
+
+
+
+.header_icons {
+    margin: 10px;
+}
+.kimm {
+    margin-left:30px;
+}
+
+.myf {
+    height: 20vh;
+    width: 90vw;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 3vh;
+    border-radius: 30px;
+    margin-bottom: 5px;
+
+}
+.myfi {
+    height: 17vh;
+    width: 17vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-image: url("luci.jpeg");
+
+}
+.myfb{
+    height: 17vh;
+    width: 50vw;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.myfn {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.myfe {
+    color: rgb(0, 0, 0,);
+}
+.friend_bar {
+    width:90vw;
+    height: 8vh;
+    background-color: var(--kakao);
+    margin-left: 3vh;
+    margin-top: 1vh;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-bottom: 1vh;
+}
+.myfii {
+    height: 17vh;
+    width: 17vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-image: url("unnamed.jpg");
+
+}
+.myfiii {
+    height: 17vh;
+    width: 17vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-image: url("hq720.jpg");
+    position: relative;
+}

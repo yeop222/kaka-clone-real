@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;600&display=swap');
+@import "rrrrot.css";
+@import "reset.css";
+@import "login.css";
+@import "arewefriend.css";
+@import "nav.css";
+@import "screen.css";
+@import "queen.css";
+@import "chatpage.css";
+@import "etc.css";
+@import "openchat.css";
+
+
+
+*{
+    font-family: 'Inconsolata', monospace;
+    box-sizing: border-box;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 3px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.top-bar1:first-child span {
+    margin-right:5px;
+}
+.top-bar1 {
+    width: 33%;
+}
+.top-bar1:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+.top-bar1:last-child {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.top-bar1 i {
+    margin-left: 3px;
+}
+body{
+    position: relative;
+}

@@ -1,0 +1,35 @@
+#no-mobile {
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    height: 100vh;
+    width: 100vw;
+    font-size: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .no-mobile_img {
+
+    height: 100%;
+    background-image: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjEwMjZfMTIw%2FMDAxNjY2NzQyMTYzMDQ0.PfWApzfY2m1AylIb2f1CFdEVljzIjt9PH8iWvVgSub4g.UH02RNJrJ-Qy4Dhaqz2gNsi9RPbbYShreF_xionMQgIg.JPEG.cmhmh%2FIMG_1784.JPG&type=a340");
+    display: flex;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+  }
+  .no-mobile_img span {
+    font-size: 100px;
+    color: red;
+  }
+  
+  @media screen and (max-width: 600px) {
+    #no-mobile {
+      display: none;
+    }
+  }
